@@ -11,21 +11,21 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: "Sarah Johnson",
-      role: "Mother of 2",
+      role: "Manager",
       image: "https://i.ibb.co/7Jn24gch/684befe7696e3ebd23c7a3f7-6841287f022320ba6d4df48a-Client-Jenna-avif.png",
       rating: 5,
       text: "Finding the perfect nanny through this service was a game-changer for our family. Our nanny is not just caring but truly understands our children's needs.",
     },
     {
       name: "Michael Chen",
-      role: "Father of 1",
+      role: "Mothers",
       image: "https://i.ibb.co/8gh3mqPR/Ellipse-48-1.jpg",
       rating: 5,
       text: "The peace of mind knowing our daughter is with someone we trust completely is priceless. Highly recommend their services to any parent.",
     },
     {
       name: "Emily Rodriguez",
-      role: "Working Mom",
+      role: "Nanny",
       image: "https://i.ibb.co/qHGmP2p/Ellipse-1.png",
       rating: 5,
       text: "Professional, caring, and reliable. Our nanny has become part of our family, and we couldn't be happier with the service.",
@@ -60,8 +60,8 @@ const Testimonials = () => {
                     src={testimonial.image}
                     alt={testimonial.name}
                     width={400}
-                    height={400}
-                    className="object-cover lg:w-[400px] w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] md:w-[300px] md:h-[300px] rounded-2xl shadow-lg"
+                    height={350}
+                    className="object-cover lg:w-[350px] w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] md:w-[300px] md:h-[300px] lg:h-[330px] rounded-2xl shadow-lg"
                   />
                 </div>
                 <div className="text-center sm:text-left">
