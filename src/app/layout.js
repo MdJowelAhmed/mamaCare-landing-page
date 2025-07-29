@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Balsamiq_Sans, Nunito } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -6,9 +6,14 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const nunito = Nunito({
+  variable: "--font-nunito",
   subsets: ["latin"],
+});
+const BalsamiqSans = Balsamiq_Sans({
+  variable: "--font-balsamiq-sans",
+  subsets: ["latin"],
+  weight: ["400", "700"],
 });
 
 export const metadata = {
@@ -20,7 +25,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${nunito.variable} ${BalsamiqSans.variable} antialiased` }
       >
         {children}
       </body>
