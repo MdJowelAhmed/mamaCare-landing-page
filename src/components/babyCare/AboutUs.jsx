@@ -117,7 +117,7 @@ const AboutUs = () => {
                 style={{ backgroundColor: service.bottomColor }}
               >
                 <div
-                  className="h-36 relative flex items-center justify-center rounded-b-[30px]"
+                  className="h-36 relative flex items-center justify-center  rounded-b-[30px]"
                   style={{ backgroundColor: service.topColor }}
                 >
                   <Image
@@ -125,14 +125,14 @@ const AboutUs = () => {
                     alt={service.title}
                     width={100}
                     height={60}
-                    className="flex items-bottom justify-center absolute bottom-0"
+                    className="flex items-bottom justify-center absolute bottom-4"
                   />
                 </div>
                 <div
                   className="h-36 px-6 py-4 text-center"
                   style={{ backgroundColor: service.bottomColor }}
                 >
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2 font-nunito">
+                  <h3 className="text-lg font-extrabold text-gray-900 mb-2 font-nunito">
                     {service.title}
                   </h3>
                   <p className="text-gray-700 text-sm font-nunito">

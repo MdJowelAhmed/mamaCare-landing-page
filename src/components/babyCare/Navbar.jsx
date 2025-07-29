@@ -13,7 +13,7 @@ const Navbar = ({ activeSection, scrollToSection, navItems }) => {
           {/* Logo */}
           <div className="flex items-center space-x-2 flex-shrink-0">
             <Image
-              src="/assets/logo 2.png"
+              src="/assets/Logo 2.png"
               alt="logo"
               width={50}
               height={50}
@@ -32,7 +32,7 @@ const Navbar = ({ activeSection, scrollToSection, navItems }) => {
                 onClick={() => scrollToSection(item.id)}
                 className={`px-2 lg:px-3 py-2 text-sm font-medium transition-colors duration-200 whitespace-nowrap ${
                   activeSection === item.id
-                    ? 'text-black border-b-2 font-black border-pink-600'
+                    ? 'text-black border-b-2 font-black border-[#CD671C]'
                     : 'text-black hover:text-pink-600'
                 }`}
               >
@@ -44,7 +44,7 @@ const Navbar = ({ activeSection, scrollToSection, navItems }) => {
           {/* Phone Number */}
           <div className="hidden lg:flex items-center gap-2 text-[#CD671C] flex-shrink-0">
             <Phone className="w-5 h-5" />
-            <span className="text-base lg:text-lg font-semibold font-nunito whitespace-nowrap">
+            <span className="text-base lg:text-lg font-bold font-nunito whitespace-nowrap">
               (303) 555-0105
             </span>
           </div>

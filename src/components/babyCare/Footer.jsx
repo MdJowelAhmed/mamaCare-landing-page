@@ -24,7 +24,7 @@ const Footer = ({ navItems, scrollToSection }) => {
           </div>
         </div> */}
         <div className="bg-[#CD671C]   py-5 text-center">
-          <p className="text-white">© 2025 BabyCare. All rights reserved. Made with for families everywhere.</p>
+          <p className="text-white">© 2025 MamaCare. All rights reserved. Made with for families everywhere.</p>
         </div>
       </div>
     </footer>

@@ -14,7 +14,7 @@ const Banner = ({ scrollToSection }) => {
             <span className="text-orange-500">Nannies</span> for Your <br />
             <span className="text-gray-800">Precious Ones</span>
           </h1>
-          <p className="text-base md:text-[22px] text-[#666666] mb-8 ">
+          <p className="text-base md:text-[22px] text-[#666666] mb-8  font-nunito">
             Book reliable African caregivers for hourly or full-day <br /> support with
             just a few taps.
           </p>
