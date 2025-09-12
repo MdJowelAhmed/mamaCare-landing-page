@@ -1,6 +1,7 @@
-"use client"
-import React from 'react';
-import { Baby } from 'lucide-react';
+"use client";
+import React from "react";
+import { Baby } from "lucide-react";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
 
 const Footer = ({ navItems, scrollToSection }) => {
   return (
@@ -23,8 +24,16 @@ const Footer = ({ navItems, scrollToSection }) => {
             ))}
           </div>
         </div> */}
-        <div className="bg-[#CD671C]   py-5 text-center">
-          <p className="text-white">© 2025 MamaCare. All rights reserved. Made with for families everywhere.</p>
+        <div className="bg-[#CD671C]  flex items-center justify-center py-5 text-center gap-20">
+          <div className="flex items-center justify-center space-x-4">
+            {" "}
+            <FaFacebookF className="w-8 h-8 p-2 bg-white text-black rounded-lg" />
+            <FaInstagram className="w-8 h-8 p-2 bg-white text-black rounded-lg" />
+          </div>
+          <p className="text-white">
+            © 2025 MamaCare. All rights reserved. Made with for families
+            everywhere.
+          </p>
         </div>
       </div>
     </footer>

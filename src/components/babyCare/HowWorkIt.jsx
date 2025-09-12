@@ -21,10 +21,10 @@ const HowWorkIt = () => {
               </p>
               <div className="space-y-4">
                 {[
-                  "Verified & background-checked nannies",
-                  "Hourly & full-day booking options",
-                  "Easy for families with multiple children",
-                  "Real parent reviews you can trust",
+                  "Trusted, vetted sitters from our African community ",
+                  "Care that understands your culture and values ",
+                  "Secure booking and payment ",
+                  "Built on family, faith, and trust",
                   "Emergency support & flexible cancellations",
                 ].map((item, index) => (
                   <div key={index} className="flex items-center space-x-3">
@@ -64,11 +64,10 @@ const HowWorkIt = () => {
           {/* Left Text Content */}
           <div className="text-start lg:w-[526px]  w-full text-gray-900 z-10">
             <h2 className="text-4xl font-bold mb-4 font-nunito">
-              Childcare is always within reach with MamaCare
+              Join the MamaCare Family Today
             </h2>
             <p className="text-lg mb-8 font-nunito">
-              Quickly find trusted nannies or babysitting jobs in your area —
-              anytime, right from the app!
+              Because at MamaCare, we believe every child deserves care that feels like home!
             </p>
             <div className="flex justify-start gap-6 font-nunito">
               <button className="bg-[#CD671C] text-white py-3 px-8 rounded-full hover:bg-orange-600 transition duration-300 flex items-center gap-2">

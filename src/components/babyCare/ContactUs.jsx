@@ -15,7 +15,7 @@ const ContactUs = () => {
             Contact Information
           </h2>
           <p className="text-xl text-black max-w-3xl mx-auto font-nunito">
-            We're here to help – reach out anytime!
+           We’d love to hear from you!
           </p>
         </div>
 
@@ -31,38 +31,37 @@ const ContactUs = () => {
             </div>
            
             <p className="font-nunito text-black">
-              No. 15, Ikenna Street, Off Nnamdi <br /> Azikiwe Road, Fegge,
-              Onitsha, Anambra
+              Potomac Highland Circle Triangle, Virginia
             </p>
           </div>
 
           <div className="text-center p-8 bg-[#DEEDE4] backdrop-blur-sm rounded-3xl hover:bg-[#DEEDE9] transition-all duration-300">
             <div className="flex justify-center items-center mb-2">
               <Image
-                src="/assets/email 3.png"
+                src="/assets/email 3 (1).png"
                 alt="phone"
                 width={50}
                 height={50}
               />
             </div>
             <p className="font-nunito text-black">
-            contact@mamcare.com <br />
-            Info@mamcare.com
+           support@mamacaresitters.com <br />
+            {/* Info@mamcare.com */}
             </p>
             </div>
 
           <div className="text-center p-8 bg-[#FEEED2] backdrop-blur-sm rounded-3xl hover:bg-[#FEEED7] transition-all duration-300">
             <div className="flex justify-center items-center mb-2">
               <Image
-                src="/assets/email 3.png"
+                src="/assets/email 3 (2).png"
                 alt="phone"
                 width={50}
                 height={50}
               />
             </div>
             <p className="font-nunito text-black">
-            +234 803 123 4567 <br />
-            +234 701 987 6543
+            +7038846202 <br />
+           
             </p>
           </div>
         </div>
