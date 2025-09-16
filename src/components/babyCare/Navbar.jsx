@@ -45,7 +45,7 @@ const Navbar = ({ activeSection, scrollToSection, navItems }) => {
           <div className="hidden lg:flex items-center gap-2 text-[#CD671C] flex-shrink-0">
             <Phone className="w-5 h-5" />
             <span className="text-base lg:text-lg font-bold font-nunito whitespace-nowrap">
-              (303) 555-0105
+              7038846202
             </span>
           </div>
 
