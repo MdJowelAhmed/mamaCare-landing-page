@@ -84,7 +84,7 @@ const Navbar = ({ activeSection, scrollToSection, navItems }) => {
               {/* Mobile Phone Number */}
               <div className="flex items-center gap-2 mt-3 px-3 text-[#CD671C]">
                 <Phone className="w-5 h-5" />
-                <span className="text-base font-semibold font-nunito">(303) 555-0105</span>
+                <span className="text-base font-semibold font-nunito">7038846202</span>
               </div>
             </div>
           </div>
