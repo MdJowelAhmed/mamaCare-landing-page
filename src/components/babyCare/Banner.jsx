@@ -21,15 +21,15 @@ const Banner = ({ scrollToSection }) => {
           <div className="flex flex-row gap-10 mb-6">
             <button
               onClick={() => scrollToSection("contact")}
-              className="bg-[#CD671C] text-white px-6 py-3 rounded-full font-medium hover:bg-orange-600 transition duration-300"
+              className="bg-[#CD671C] text-white cursor-pointer px-6 py-3 rounded-full font-medium hover:bg-orange-600 transition duration-300"
             >
               Find a Sitter
             </button>
             <button
               onClick={() => scrollToSection("how-it-works")}
-              className="flex items-center gap-2 text-[#CD671C] font-medium hover:underline"
+              className="flex items-center gap-2 text-[#CD671C] font-medium hover:underline cursor-pointer"
             >
-              <span className="text-white h-9 w-9 bg-[#CD671C] rounded-full flex items-center justify-center">▶</span> Become a Caregiver
+              <span className="text-white h-9 w-9 bg-[#CD671C] rounded-full flex items-center cursor-pointer justify-center">▶</span> Become a Caregiver
             </button>
           </div>
 

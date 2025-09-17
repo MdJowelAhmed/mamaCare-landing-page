@@ -30,10 +30,10 @@ const Navbar = ({ activeSection, scrollToSection, navItems }) => {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className={`px-2 lg:px-3 py-2 text-sm font-medium transition-colors duration-200 whitespace-nowrap ${
+                className={`px-2 lg:px-3 py-2 text-sm cursor-pointer font-medium transition-colors duration-200 whitespace-nowrap ${
                   activeSection === item.id
-                    ? 'text-black border-b-2 font-black border-[#CD671C]'
-                    : 'text-black hover:text-pink-600'
+                    ? 'text-black border-b-2 font-black border-[#CD671C] cursor-pointer'
+                    : 'text-black hover:text-[#CD671C] cursor-pointer'
                 }`}
               >
                 {item.label}
@@ -71,10 +71,10 @@ const Navbar = ({ activeSection, scrollToSection, navItems }) => {
                     scrollToSection(item.id);
                     setIsMenuOpen(false);
                   }}
-                  className={`block w-full text-left px-3 py-2 text-base font-medium transition-colors ${
+                  className={`block w-full cursor-pointer text-left px-3 py-2 text-base font-medium transition-colors ${
                     activeSection === item.id
-                      ? 'text-pink-600 bg-pink-50'
-                      : 'text-gray-700 hover:text-pink-600 hover:bg-gray-50'
+                      ? 'text-pink-600 bg-pink-50 cursor-pointer'
+                      : 'text-gray-700 hover:text-pink-600 hover:bg-gray-50 cursor-pointer'
                   }`}
                 >
                   {item.label}

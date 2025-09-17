@@ -70,11 +70,11 @@ const HowWorkIt = () => {
               Because at MamaCare, we believe every child deserves care that feels like home!
             </p>
             <div className="flex justify-start gap-6 font-nunito">
-              <button className="bg-[#CD671C] text-white py-3 px-8 rounded-full hover:bg-orange-600 transition duration-300 flex items-center gap-2">
+              <button className="bg-[#CD671C] cursor-pointer text-white py-3 px-8 rounded-full hover:bg-[#CD671C] transition duration-300 flex items-center gap-2">
                 <FaGooglePlay className="text-xl" />
                 <span>Google Play</span>
               </button>
-              <button className="bg-[#CD671C] text-white py-3 px-8 rounded-full hover:bg-gray-800 transition duration-300 flex items-center gap-2">
+              <button className="bg-[#CD671C] text-white cursor-pointer py-3 px-8 rounded-full hover:bg-[#CD671C] transition duration-300 flex items-center gap-2">
                 <FaApple className="text-xl" />
                 <span>App Store</span>
               </button>
